@@ -8,3 +8,6 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- The home page is a text-free portrait floral scene; layer imported botanical images with CSS wind animations so the artwork stays lightweight and honors reduced-motion preferences.
+- Keep floral composition and animation styling in the global design system so the portrait scales consistently across screen sizes.
