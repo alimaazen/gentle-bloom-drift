@@ -184,7 +184,7 @@
 .floral-branch {
   mix-blend-mode: multiply;
   width: 66%;
-  animation: branch-breeze 8.5s ease-in-out infinite;
+  animation: branch-breeze 5.4s ease-in-out infinite;
 }
 
 .floral-branch-right {
@@ -199,38 +199,42 @@
   bottom: -5%;
   opacity: 0.4;
   scale: -1 1;
-  animation-duration: 10.5s;
-  animation-delay: -4s;
+  animation-duration: 6.8s;
+  animation-delay: -2.4s;
 }
 
 .floral-bed {
   width: 118%;
   left: -9%;
   bottom: -2%;
-  animation: flower-breeze 7s ease-in-out infinite;
+  animation: flower-breeze 4.6s ease-in-out infinite;
 }
 
 .floral-bed-back {
   bottom: 3%;
   opacity: 0.35;
   scale: -1 1;
-  animation-duration: 9s;
-  animation-delay: -3s;
+  animation-duration: 6.1s;
+  animation-delay: -1.9s;
 }
 
 .floral-bed-front {
   opacity: 0.86;
-  animation-delay: -1.5s;
+  animation-delay: -0.9s;
 }
 
 @keyframes branch-breeze {
-  0%, 100% { transform: rotate(-1.4deg) translateX(-0.6%); }
-  50% { transform: rotate(2deg) translateX(0.8%); }
+  0%, 100% { transform: rotate(-4.2deg) translateX(-1.8%); }
+  35% { transform: rotate(3deg) translateX(1%); }
+  50% { transform: rotate(5deg) translateX(2.4%); }
+  70% { transform: rotate(1.6deg) translateX(0.4%); }
 }
 
 @keyframes flower-breeze {
-  0%, 100% { transform: rotate(-0.8deg) skewX(-0.6deg); }
-  50% { transform: rotate(1deg) skewX(1.2deg); }
+  0%, 100% { transform: rotate(-2.4deg) skewX(-2deg) translateY(0.5%); }
+  35% { transform: rotate(1.4deg) skewX(1deg) translateY(-0.3%); }
+  50% { transform: rotate(2.8deg) skewX(2.6deg) translateY(-0.7%); }
+  72% { transform: rotate(-0.6deg) skewX(-0.8deg) translateY(0.2%); }
 }
 
 @media (max-aspect-ratio: 9/16) {
